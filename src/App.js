@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Topbar from "./scenes/global/TopBar";
 import Dashboard from "./scenes/dashboard";
 import Sidebar from "./scenes/global/Sidebar";
+
 // import Teams from "./scenes/team";
 // import Invoices from "./scenes/invoices";
 // import Contacts from "./scenes/contacts";
@@ -21,6 +22,7 @@ function App() {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+
         <div className="app">
           <Sidebar />
           <main className="content">
